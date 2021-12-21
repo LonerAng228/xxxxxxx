@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/lessons 19/css/uikit.min.css">
+    <script src="/lessons 19/js/uikit.min.js"></script>
+    <script src="/lessons 19/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <div uk-sortable="group: my-group">
+        <div class="uk-child-width-1-3@s" uk-grid>
+            <div>
+                <h4>Group 1</h4>
+                <div uk-sortable="group: sortable-group">
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">
+                            <div class="uk-position-top-right">#1000</div>
+                            Job title
+                            <div class="uk-posittion-center-left">Lorem ipsum dolor sit amet</div>
+                            <img class="uk-border-circle" width="40" height="40" src="/lessons 19/avatarko_anonim.jpg" alt="">
+                            <img class="uk-border-circle" width="40" height="40" src="/lessons 19/avatarko_anonim.jpg" alt="">
+                        </div>
+                        <div class="uk-card-footer">
+                            <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="copy"></a>
+                            <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="file-edit"></a>
+                            <a href="#" class="uk-icon-link" uk-icon="trash"></a>
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">Job title</div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">Job title</div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">Job title</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Group 2</h4>
+                <div uk-sortable="group: sortable-group">
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">Job title</div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">Job title</div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">Job title</div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-small">Job title</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Empty Group</h4>
+                <div uk-sortable="group: sortable-group">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
